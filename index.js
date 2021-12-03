@@ -554,9 +554,9 @@ app.post("/cancelflight", function (req, res) {
   );
 });
 
-app.get('*',(req,res) =>{
-  res.sendFile("build");
-});
+// app.get('*',(req,res) =>{
+//   res.sendFile("build");
+// });
 
 
 
